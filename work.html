@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work — Yuna Xu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@200..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav-logo">Yuna<span class="dot">.</span></a>
+    <div class="nav-links">
+      <a href="work.html" class="nav-link active">Work</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="education.html" class="nav-link">Education</a>
+      <a href="about.html" class="nav-link">About</a>
+    </div>
+    <button class="nav-menu-btn" id="menuBtn" aria-label="菜单">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="work.html" class="mobile-link">Work</a>
+    <a href="projects.html" class="mobile-link">Projects</a>
+    <a href="education.html" class="mobile-link">Education</a>
+    <a href="about.html" class="mobile-link">About</a>
+  </div>
+
+  <section class="page-header">
+    <div class="container">
+      <p class="breadcrumb">Yuna Xu / 工作经历</p>
+      <h1 class="page-title reveal">工作经历</h1>
+    </div>
+  </section>
+
+  <section class="work-section">
+    <div class="container">
+      <div class="work-timeline">
+
+        <div class="work-card reveal">
+          <div class="work-card-line" style="background:var(--accent);"></div>
+          <div class="work-card-body">
+            <div class="work-card-header">
+              <div>
+                <p class="work-company">极星智算（上海）技术有限公司</p>
+                <h2 class="work-role">AI 产品经理</h2>
+              </div>
+              <span class="work-period">2025.05 – 2026.01</span>
+            </div>
+            <p class="work-overview">参与公司 AI 平台全栈架构规划（IaaS-MaaS-SaaS 层级），负责 AI 工作台的产品设计，探索 AI Agent 在实际场景中的落地路径，负责 GPU 算力平台 MVP 阶段从产品规划到需求落地的全流程。</p>
+            <div class="work-sub">
+              <h4>AI 工作台</h4>
+              <ul>
+                <li>针对企业员工日常办公中重复性操作耗时高、跨应用切换效率低的痛点，规划 AI 工作空间方案，实现"自然语言 → Agent自主执行 → 完成任务"闭环</li>
+                <li>构建"个人-项目-规则"三层本地记忆架构，设计 Skill 自演化闭环，引导用户将复杂工作流一键结晶为可复用 Skill</li>
+                <li>设计"先生成步骤计划、人确认后再执行"的渐进式授权体验，支持分级权限模式</li>
+              </ul>
+            </div>
+            <div class="work-sub" style="margin-top:18px;">
+              <h4>GPU 云平台</h4>
+              <ul>
+                <li>无云背景快速自学 GPU 产品模型，梳理资源申请-审批-交付全链路，独立完成 MVP 核心功能规划与设计</li>
+                <li>协调跨部门资源，与英伟达 NCP 进行方案汇报，推动平台从概念到落地</li>
+              </ul>
+            </div>
+            <div style="margin-top:32px; display:flex; gap:10px; flex-wrap:wrap;">
+              <a href="projects/ai-workspace.html" class="work-card-link" style="font-size:0.82rem;padding:6px 14px;border-radius:100px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--text-secondary);text-decoration:none;transition:all 0.2s;">AI 协作工作台 →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-card reveal">
+          <div class="work-card-line" style="background:#FF8135;"></div>
+          <div class="work-card-body">
+            <div class="work-card-header">
+              <div>
+                <p class="work-company">通办信息服务</p>
+                <h2 class="work-role">产品经理（政务/智能对话产品）</h2>
+              </div>
+              <span class="work-period">2023.04 – 2024.07</span>
+            </div>
+            <p class="work-overview">主导上海政务智能助手"小申"的核心迭代，在政务合规约束下推动产品从"传统知识问答"升级为"在线办件服务"，实现高频政务业务的 AI 智能分流。</p>
+            <div class="work-sub">
+              <h4>问办一体对话产品重构</h4>
+              <ul>
+                <li>深度拆解线下政务大厅高频审批业务流程，重新设计为多轮引导式对话交互（CUI）</li>
+                <li>设计对话流程中的意图识别路径、追问策略与表单字段自动抽取逻辑，整合拖拽式可视化节点工具</li>
+              </ul>
+            </div>
+            <div class="work-sub" style="margin-top:18px;">
+              <h4>大模型合规落地方案设计</h4>
+              <ul>
+                <li>针对政务网络无法调用公有云大模型 API 的壁垒，设计"大模型离线赋能"方案</li>
+                <li>显著提升"小申"对复杂提问的语义理解准确率，为后续大模型能力深度集成建立数据基础</li>
+              </ul>
+            </div>
+            <div style="margin-top:32px; display:flex; gap:10px; flex-wrap:wrap;">
+              <a href="projects/suishen.html" class="work-card-link" style="font-size:0.82rem;padding:6px 14px;border-radius:100px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--text-secondary);text-decoration:none;transition:all 0.2s;">随申办 · 智能政务助手 →</a>
+              <a href="projects/gov-platform.html" class="work-card-link" style="font-size:0.82rem;padding:6px 14px;border-radius:100px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--text-secondary);text-decoration:none;transition:all 0.2s;">政务中台对话流 →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-card reveal">
+          <div class="work-card-line" style="background:#93DCFF;"></div>
+          <div class="work-card-body">
+            <div class="work-card-header">
+              <div>
+                <p class="work-company">中电金信软件（上海）</p>
+                <h2 class="work-role">产品经理</h2>
+              </div>
+              <span class="work-period">2021.03 – 2022.12</span>
+            </div>
+            <p class="work-overview">负责戴尔官方商城小程序、快手内部产品的全流程迭代，主导复杂系统重构与用户体验优化。</p>
+            <div class="work-sub">
+              <h4>戴尔官方商城小程序（B/C 端融合重构）</h4>
+              <ul>
+                <li>基于双钻模型与用户访谈，定义"触达到回购"6 步用户旅程</li>
+                <li>重构底层权限与商品可见性逻辑，实现双端用户"无感切换"体验</li>
+                <li>围绕用户全生命周期升级积分运营体系，建立精细化用户触达机制</li>
+              </ul>
+            </div>
+            <div class="work-sub" style="margin-top:18px;">
+              <h4>快手贺卡平台</h4>
+              <ul>
+                <li>聚焦员工成长与情感连接，设计"匿名发送"与"未来邮局"功能</li>
+                <li>短时间 0-1 构建产品，输出 150+ 高保真原型图、20 条用户流程及 PRD 文档</li>
+              </ul>
+            </div>
+            <div style="margin-top:32px; display:flex; gap:10px; flex-wrap:wrap;">
+              <a href="projects/dell.html" class="work-card-link" style="font-size:0.82rem;padding:6px 14px;border-radius:100px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--text-secondary);text-decoration:none;transition:all 0.2s;">戴尔小程序改版 →</a>
+              <a href="projects/amazon.html" class="work-card-link" style="font-size:0.82rem;padding:6px 14px;border-radius:100px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--text-secondary);text-decoration:none;transition:all 0.2s;">亚马逊提案 →</a>
+              <a href="projects/kuaishou.html" class="work-card-link" style="font-size:0.82rem;padding:6px 14px;border-radius:100px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--text-secondary);text-decoration:none;transition:all 0.2s;">快手成长平台 →</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-row">
+        <div class="footer-brand">
+          <span class="footer-name">Yuna<span class="dot">.</span></span>
+          <p>AI PM · 产品设计 · 上海</p>
+        </div></div>
+      <div class="footer-bottom">
+        <p>© 2026 Yuna Xu.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">已复制到剪贴板 ✓</div>
+  <script src="js/main.js"></script>
+</body>
+</html>
